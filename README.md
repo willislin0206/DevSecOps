@@ -47,7 +47,10 @@ docker run --rm -it -v ~/.ssh:/root/.ssh -v ${PWD}:/docs squidfunk/mkdocs-materi
 # auto build-up and  genertate static web data (html + css + javascript)
 docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 
-# more mkdocs for material
+# mkdocs document
+https://www.mkdocs.org/user-guide/writing-your-docs/
+
+# more material for mkdocs
 https://squidfunk.github.io/mkdocs-material/creating-your-site/
 
 
