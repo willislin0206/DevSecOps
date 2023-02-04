@@ -1,7 +1,9 @@
-site_name: "走向人生艱辛的道路 - DevSecOps"
+site_name: "邁向人生艱辛的道路 - DevSecOps"
 
 theme:
   name: material
+  icon:
+    logo: octicons/rocket-16 
   palette:
     - scheme: default
       primary: indiago

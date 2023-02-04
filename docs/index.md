@@ -1,7 +1,7 @@
 ---
 title: "Home"
 
-hide: navigation
+#hide: navigation
 
 comments: true
 ---
