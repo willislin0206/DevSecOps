@@ -2,7 +2,13 @@
 title: "About Me"
 
 ---
+
+
 # Willis Lin
+
+
+![not found](../assets/willis/willis.jpg){ align=left, width="300"}
+
 * 姓名:未知
 * 學歷:未知
 * 經歷:未知
@@ -10,4 +16,4 @@ title: "About Me"
 * 生活樂趣:未知
 * 居住地:未知
 
-![not found](./../assets/willis/willis.jpg)
+
