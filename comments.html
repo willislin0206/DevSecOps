@@ -1,0 +1,32 @@
+{% if page.meta.comments %}
+  <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+  <!-- Insert generated snippet here -->
+  <div id="remark42"></div>
+
+<script>
+  var remark_config = {
+    host: 'https://remark42.k8sprd-whq.k8s.wistron.com',
+    site_id: 'remark42',
+    components: ['embed'],
+    max_shown_comments: 10,
+    theme: 'light',
+    page_title: 'My custom title for a page',
+    locale: 'en',
+    show_email_subscription: true,
+    simple_view: true,
+    no_footer: false
+  };
+</script>
+<script>
+  (function(c) {
+    for(var i = 0; i < c.length; i++){
+      var d = document, s = d.createElement('script');
+      s.src = remark_config.host + '/web/' +c[i] +'.js';
+      s.defer = true;
+      (d.head || d.body).appendChild(s);
+    }
+  })(remark_config.components || ['embed']);
+</script>
+{% endif %}
+
+
