@@ -6,14 +6,21 @@ title: "Hotlink"
 
 ## AI
 
-1. [偉大的聊天機器人- ChatGPT](https://openai.com/blog/chatgpt/)
-2. [人聲與背景音樂分離](https://youtu.be/Y4L19X3W3f4)
-3. 畫圖機器人:
-  * [DALL·E 2](https://www.bnext.com.tw/article/73621/dall-e-0105)
-  * [Midjourney](https://www.kocpc.com.tw/archives/453331)
+1. [偉大的聊天機器人- ChatGPT](https://chat.openai.com/chat)
+2. [MS - BingChat](https://www.bing.com/)
+3. [Google - Bard]()
+4. [人聲與背景音樂分離](https://youtu.be/Y4L19X3W3f4)
+5. 畫圖機器人:
+   * [DALL·E 2](https://www.bnext.com.tw/article/73621/dall-e-0105)
+   * [Midjourney](https://www.kocpc.com.tw/archives/453331) (已須付費)
 
-
-
+## 好用玩意兒
+  * [ 畫圖工具UML - draw.io](https://www.diagrams.net/example-diagrams)
+  
+## Cyber Security
+  * Zero-Trust 
+    * [ 概念 ]()
+    * [ DevOps-擁抱零信任架構]() 
 ## 密碼學
 1. [Passkey 原理介紹](https://youtu.be/kHwTYgktGlM)
 2. [TOTP 2FA](https://medium.com/starbugs/totp-2fa-algorithm-in-10-mins-25acc3c35df9)
