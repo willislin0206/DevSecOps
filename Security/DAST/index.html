@@ -12,21 +12,21 @@
         <link rel="prev" href="../../Oprations/Observability/Tracing/">
       
       
-        <link rel="next" href="../SAST/">
+        <link rel="next" href="../DockerfileScan/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.3">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.19">
     
     
       
-        <title>DAST - 丞相 起風了- DevSecOps</title>
+        <title>DAST - Willis Lin</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.c4a75a56.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.eebd395e.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.a0c5b2b5.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -59,7 +59,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     
@@ -87,7 +87,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="丞相 起風了- DevSecOps" class="md-header__button md-logo" aria-label="丞相 起風了- DevSecOps" data-md-component="logo">
+    <a href="../.." title="Willis Lin" class="md-header__button md-logo" aria-label="Willis Lin" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M14.064 0h.186C15.216 0 16 .784 16 1.75v.186a8.752 8.752 0 0 1-2.564 6.186l-.458.459c-.314.314-.641.616-.979.904v3.207c0 .608-.315 1.172-.833 1.49l-2.774 1.707a.749.749 0 0 1-1.11-.418l-.954-3.102a1.214 1.214 0 0 1-.145-.125L3.754 9.816a1.218 1.218 0 0 1-.124-.145L.528 8.717a.749.749 0 0 1-.418-1.11l1.71-2.774A1.748 1.748 0 0 1 3.31 4h3.204c.288-.338.59-.665.904-.979l.459-.458A8.749 8.749 0 0 1 14.064 0ZM8.938 3.623h-.002l-.458.458c-.76.76-1.437 1.598-2.02 2.5l-1.5 2.317 2.143 2.143 2.317-1.5c.902-.583 1.74-1.26 2.499-2.02l.459-.458a7.25 7.25 0 0 0 2.123-5.127V1.75a.25.25 0 0 0-.25-.25h-.186a7.249 7.249 0 0 0-5.125 2.123ZM3.56 14.56c-.732.732-2.334 1.045-3.005 1.148a.234.234 0 0 1-.201-.064.234.234 0 0 1-.064-.201c.103-.671.416-2.273 1.15-3.003a1.502 1.502 0 1 1 2.12 2.12Zm6.94-3.935c-.088.06-.177.118-.266.175l-2.35 1.521.548 1.783 1.949-1.2a.25.25 0 0 0 .119-.213ZM3.678 8.116 5.2 5.766c.058-.09.117-.178.176-.266H3.309a.25.25 0 0 0-.213.119l-1.2 1.95ZM12 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>
@@ -100,7 +100,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            丞相 起風了- DevSecOps
+            Willis Lin
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -113,25 +113,31 @@
       </div>
     </div>
     
-      <form class="md-header__option" data-md-component="palette">
-        
+      
+        <form class="md-header__option" data-md-component="palette">
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+            
+              <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+              </label>
+            
           
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
-            </label>
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="blue-grey" data-md-color-primary="black" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+            
+              <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+              </label>
+            
           
-        
-          
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="blue-grey" data-md-color-primary="black" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
-            </label>
-          
-        
-      </form>
+        </form>
+      
     
     
     
@@ -219,7 +225,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Development/Coding/AngularPrimeNG/" class="md-tabs__link">
+      <a href="../../Development/Backend-APP/Demo/" class="md-tabs__link">
         Development
       </a>
     </li>
@@ -237,7 +243,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../Oprations/CD/" class="md-tabs__link">
+      <a href="../../Oprations/CICD/" class="md-tabs__link">
         Oprations
       </a>
     </li>
@@ -289,13 +295,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="丞相 起風了- DevSecOps" class="md-nav__button md-logo" aria-label="丞相 起風了- DevSecOps" data-md-component="logo">
+    <a href="../.." title="Willis Lin" class="md-nav__button md-logo" aria-label="Willis Lin" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M14.064 0h.186C15.216 0 16 .784 16 1.75v.186a8.752 8.752 0 0 1-2.564 6.186l-.458.459c-.314.314-.641.616-.979.904v3.207c0 .608-.315 1.172-.833 1.49l-2.774 1.707a.749.749 0 0 1-1.11-.418l-.954-3.102a1.214 1.214 0 0 1-.145-.125L3.754 9.816a1.218 1.218 0 0 1-.124-.145L.528 8.717a.749.749 0 0 1-.418-1.11l1.71-2.774A1.748 1.748 0 0 1 3.31 4h3.204c.288-.338.59-.665.904-.979l.459-.458A8.749 8.749 0 0 1 14.064 0ZM8.938 3.623h-.002l-.458.458c-.76.76-1.437 1.598-2.02 2.5l-1.5 2.317 2.143 2.143 2.317-1.5c.902-.583 1.74-1.26 2.499-2.02l.459-.458a7.25 7.25 0 0 0 2.123-5.127V1.75a.25.25 0 0 0-.25-.25h-.186a7.249 7.249 0 0 0-5.125 2.123ZM3.56 14.56c-.732.732-2.334 1.045-3.005 1.148a.234.234 0 0 1-.201-.064.234.234 0 0 1-.064-.201c.103-.671.416-2.273 1.15-3.003a1.502 1.502 0 1 1 2.12 2.12Zm6.94-3.935c-.088.06-.177.118-.266.175l-2.35 1.521.548 1.783 1.949-1.2a.25.25 0 0 0 .119-.213ZM3.678 8.116 5.2 5.766c.058-.09.117-.178.176-.266H3.309a.25.25 0 0 0-.213.119l-1.2 1.95ZM12 5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>
 
     </a>
-    丞相 起風了- DevSecOps
+    Willis Lin
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -421,6 +427,16 @@
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -456,19 +472,17 @@
         
           
         
-          
-        
       
       
         <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
-          Coding
+          Backend APP
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3_1">
           <span class="md-nav__icon md-icon"></span>
-          Coding
+          Backend APP
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -478,8 +492,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Development/Coding/AngularPrimeNG/" class="md-nav__link">
-        Angular + PrimeNG
+      <a href="../../Development/Backend-APP/Demo/" class="md-nav__link">
+        Demo
       </a>
     </li>
   
@@ -492,8 +506,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Development/Coding/Golang/" class="md-nav__link">
-        Golang Gin
+      <a href="../../Development/Backend-APP/Design/" class="md-nav__link">
+        Design
       </a>
     </li>
   
@@ -506,22 +520,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Development/Coding/Java/" class="md-nav__link">
-        Java SpringBoot
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../Development/Coding/Python/" class="md-nav__link">
-        Python Flask
+      <a href="../../Development/Backend-APP/Intro/" class="md-nav__link">
+        Introduction
       </a>
     </li>
   
@@ -556,17 +556,103 @@
         
           
         
-          
-        
       
       
         <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
-          Concept
+          Backend DB
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Backend DB
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Backend-DB/Design/" class="md-nav__link">
+        Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Backend-DB/Intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Backend-DB/SQL/" class="md-nav__link">
+        SQL
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+          Concept
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_3">
           <span class="md-nav__icon md-icon"></span>
           Concept
         </label>
@@ -622,6 +708,372 @@
     <li class="md-nav__item">
       <a href="../../Development/Concept/System-Design/" class="md-nav__link">
         System Design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Concept/Tutorial/" class="md-nav__link">
+        Tutorial
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+          E2E
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_4">
+          <span class="md-nav__icon md-icon"></span>
+          E2E
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/E2E/Demo/" class="md-nav__link">
+        Demo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/E2E/Intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/E2E/Tools/" class="md-nav__link">
+        Tools
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+          Example   CRUD
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_5">
+          <span class="md-nav__icon md-icon"></span>
+          Example   CRUD
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Example%20-%20CRUD/AngularPrimeNG/" class="md-nav__link">
+        Angular with PrimeNG
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Example%20-%20CRUD/Golang/" class="md-nav__link">
+        Golang Gin
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Example%20-%20CRUD/Java/" class="md-nav__link">
+        Java SpringBoot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Example%20-%20CRUD/Python/" class="md-nav__link">
+        Python Flask
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+          Frontend
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_6">
+          <span class="md-nav__icon md-icon"></span>
+          Frontend
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Frontend/Framework/" class="md-nav__link">
+        Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Frontend/Intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/Frontend/UI/" class="md-nav__link">
+        UI
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
+          UT
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_3_7">
+          <span class="md-nav__icon md-icon"></span>
+          UT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/UT/Demo/" class="md-nav__link">
+        Demo
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/UT/Intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Development/UT/Tools/" class="md-nav__link">
+        Tools
       </a>
     </li>
   
@@ -686,8 +1138,57 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Oprations/CD/" class="md-nav__link">
-        CD Flow
+      <a href="../../Oprations/CICD/" class="md-nav__link">
+        CI/CD Flow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+          DataBase
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          DataBase
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Oprations/DataBase/Category/" class="md-nav__link">
+        Category
       </a>
     </li>
   
@@ -700,9 +1201,30 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Oprations/CI/" class="md-nav__link">
-        CI Flow
+      <a href="../../Oprations/DataBase/Intro/" class="md-nav__link">
+        Introduction
       </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Oprations/DataBase/Management/" class="md-nav__link">
+        Management
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -731,6 +1253,16 @@
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
@@ -744,6 +1276,48 @@
           DevOpsChain
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Oprations/DevOpsChain/ArgoCD/" class="md-nav__link">
+        ArgoCD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Oprations/DevOpsChain/Atlantis/" class="md-nav__link">
+        Atlantis
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Oprations/DevOpsChain/Gitlab-Runner/" class="md-nav__link">
+        Gitlab Runner
+      </a>
+    </li>
+  
+
+            
           
             
               
@@ -795,6 +1369,34 @@
     <li class="md-nav__item">
       <a href="../../Oprations/DevOpsChain/NexusOSS/" class="md-nav__link">
         NexusOSS
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Oprations/DevOpsChain/Sonarqube/" class="md-nav__link">
+        Sonarqbue
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Oprations/DevOpsChain/Vault/" class="md-nav__link">
+        HashiCorp Vault
       </a>
     </li>
   
@@ -943,6 +1545,14 @@
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -969,13 +1579,158 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          DAST
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         DAST
       </a>
       
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#whasts-dast" class="md-nav__link">
+    Whast's DAST ?
+  </a>
+  
+    <nav class="md-nav" aria-label="Whast's DAST ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dastdynamic-application-security-testingdast" class="md-nav__link">
+    DAST代表動態應用程序安全測試（Dynamic Application Security Testing），是一種用於應用程序安全測試的自動化技術。DAST在測試期間模擬攻擊者攻擊應用程序，通過發送各種請求來測試應用程序的安全性。
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dastxsscsrfdastowasp-zapburp-suitenetsparker" class="md-nav__link">
+    DAST測試可以自動化測試對象的訪問權限、注入攻擊、跨站腳本（XSS）攻擊、跨站請求偽造（CSRF）攻擊、文件包含漏洞等常見安全漏洞。通常DAST測試是通過一些軟件或者線上工具完成的，如OWASP ZAP、Burp Suite、Netsparker等。
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#daststatic-code-analysisdast" class="md-nav__link">
+    DAST測試與靜態代碼分析（Static Code Analysis）不同，靜態代碼分析是通過對代碼的檢查來發現安全漏洞，而DAST則是通過模擬攻擊來測試應用程序的安全性。
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    特色：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#owasp-zap" class="md-nav__link">
+    Owasp Zap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architeture" class="md-nav__link">
+    Architeture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#baseline-scan" class="md-nav__link">
+    Baseline Scan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#full-scan" class="md-nav__link">
+    Full Scan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api-scan" class="md-nav__link">
+    API Scan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-policy-rule" class="md-nav__link">
+    Default Policy Rule
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../DockerfileScan/" class="md-nav__link">
+        Dockerfile Scan
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ImageVulnerability/" class="md-nav__link">
+        Image Vulnerability
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../OWASP%20TOP10/" class="md-nav__link">
+        OWASP Top 10
+      </a>
     </li>
   
 
@@ -989,6 +1744,20 @@
     <li class="md-nav__item">
       <a href="../SAST/" class="md-nav__link">
         SAST
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../SBOM/" class="md-nav__link">
+        SBOM
       </a>
     </li>
   
@@ -1015,8 +1784,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../Secret-Detection/" class="md-nav__link">
-        Secret-Detection
+      <a href="../SecretScan/" class="md-nav__link">
+        Secret Scan
       </a>
     </li>
   
@@ -1060,8 +1829,97 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#whasts-dast" class="md-nav__link">
+    Whast's DAST ?
+  </a>
+  
+    <nav class="md-nav" aria-label="Whast's DAST ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dastdynamic-application-security-testingdast" class="md-nav__link">
+    DAST代表動態應用程序安全測試（Dynamic Application Security Testing），是一種用於應用程序安全測試的自動化技術。DAST在測試期間模擬攻擊者攻擊應用程序，通過發送各種請求來測試應用程序的安全性。
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dastxsscsrfdastowasp-zapburp-suitenetsparker" class="md-nav__link">
+    DAST測試可以自動化測試對象的訪問權限、注入攻擊、跨站腳本（XSS）攻擊、跨站請求偽造（CSRF）攻擊、文件包含漏洞等常見安全漏洞。通常DAST測試是通過一些軟件或者線上工具完成的，如OWASP ZAP、Burp Suite、Netsparker等。
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#daststatic-code-analysisdast" class="md-nav__link">
+    DAST測試與靜態代碼分析（Static Code Analysis）不同，靜態代碼分析是通過對代碼的檢查來發現安全漏洞，而DAST則是通過模擬攻擊來測試應用程序的安全性。
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    特色：
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#owasp-zap" class="md-nav__link">
+    Owasp Zap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architeture" class="md-nav__link">
+    Architeture
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#baseline-scan" class="md-nav__link">
+    Baseline Scan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#full-scan" class="md-nav__link">
+    Full Scan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#api-scan" class="md-nav__link">
+    API Scan
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#default-policy-rule" class="md-nav__link">
+    Default Policy Rule
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1076,7 +1934,169 @@
                   
 
 
-<h1 id="whasts-dast">Whast's DAST ?</h1>
+  <h1>DAST</h1>
+
+<h2 id="whasts-dast">Whast's DAST ?</h2>
+<h5 id="dastdynamic-application-security-testingdast">DAST代表動態應用程序安全測試（Dynamic Application Security Testing），是一種用於應用程序安全測試的自動化技術。DAST在測試期間模擬攻擊者攻擊應用程序，通過發送各種請求來測試應用程序的安全性。</h5>
+<h5 id="dastxsscsrfdastowasp-zapburp-suitenetsparker">DAST測試可以自動化測試對象的訪問權限、注入攻擊、跨站腳本（XSS）攻擊、跨站請求偽造（CSRF）攻擊、文件包含漏洞等常見安全漏洞。通常DAST測試是通過一些軟件或者線上工具完成的，如OWASP ZAP、Burp Suite、Netsparker等。</h5>
+<h5 id="daststatic-code-analysisdast">DAST測試與靜態代碼分析（Static Code Analysis）不同，靜態代碼分析是通過對代碼的檢查來發現安全漏洞，而DAST則是通過模擬攻擊來測試應用程序的安全性。</h5>
+<h4 id="_1">特色：</h4>
+<ol>
+<li>
+<p>模擬攻擊：DAST測試通過模擬攻擊者的攻擊來發現應用程序中的漏洞。它可以測試各種攻擊，例如SQL注入、跨站腳本攻擊、跨站請求偽造攻擊等。</p>
+</li>
+<li>
+<p>自動化測試：DAST測試是自動化的，可以自動化發現應用程序中的安全漏洞，減少了手動測試的工作量和錯誤率。</p>
+</li>
+<li>
+<p>快速測試：DAST測試可以在短時間內測試大量的頁面和功能，這使得它成為一種快速且有效的安全測試方法。</p>
+</li>
+<li>
+<p>客戶端測試：DAST測試是在客戶端進行的，這意味著它可以測試實際運行的應用程序，而不是測試代碼。</p>
+</li>
+<li>
+<p>與靜態分析結合：DAST測試可以與靜態分析結合使用，以提高測試的準確性和完整性。</p>
+</li>
+</ol>
+<p>總的來說，DAST測試是一種快速、自動化、客戶端和模擬攻擊的安全測試方法，可以有效地發現應用程序中的安全漏洞</p>
+<h4 id="owasp-zap">Owasp Zap</h4>
+<p>OWASP ZAP（Zed Attack Proxy）是一種開源的應用程序安全測試工具，可以用於發現應用程序中的安全漏洞和漏洞。ZAP提供了許多功能，包括被動和主動測試、自動化攻擊、漏洞管理、報告生成等等。</p>
+<ol>
+<li>
+<p>開源免費：ZAP是一款開源免費的應用程序安全測試工具，所有人都可以自由使用和修改它的源代碼。</p>
+</li>
+<li>
+<p>都跨平台支持：ZAP可以在Windows、Linux和MacOS等操作系統上運行。</p>
+</li>
+<li>
+<p>網絡代理：ZAP可以作為一個網絡代理，捕獲HTTP和HTTPS請求，檢查請求和響應的內容，從而發現安全漏洞和漏洞。</p>
+</li>
+<li>
+<p>被動和主動測試：ZAP支持被動和主動測試。在被動測試中，ZAP會通過攔截和分析瀏覽器和應用程序之間的通信來發現漏洞。在主動測試中，ZAP將向應用程序發送各種請求，測試應用程序的安全性。</p>
+</li>
+<li>
+<p>自動化攻擊：ZAP可以自動化攻擊，例如SQL注入攻擊、XSS攻擊、文件包含攻擊等等。</p>
+</li>
+<li>
+<p>漏洞管理：ZAP可以幫助管理應用程序中發現的漏洞，跟踪漏洞的狀態、進度和優先級。</p>
+</li>
+<li>
+<p>報告生成：ZAP可以生成各種類型的報告，例如HTML、XML、PDF等等，幫助管理和開發人員快速了解應用程序的安全狀況。</p>
+</li>
+</ol>
+<h4 id="architeture">Architeture</h4>
+<p><img alt="not found" src="../../assets/OWASPZap/browser-network-proxy.png" /></p>
+<h4 id="baseline-scan">Baseline Scan</h4>
+<p>which runs the ZAP spider against the target for (by default) 1 minute followed by an optional ajax spider scan before reporting the results of the passive scanning.</p>
+<p><strong>Demo</strong>
+This is a Demo</p>
+<h4 id="full-scan">Full Scan</h4>
+<p>which runs the ZAP spider against the target (by default with no time limit) followed by an optional ajax spider scan and then a full active scan before reporting the results.</p>
+<p><strong>Demo</strong>
+This is a Demo</p>
+<h4 id="api-scan">API Scan</h4>
+<p>which performs an active scan against APIs defined by OpenAPI, or GraphQL (post 2.9.0) via either a local file or a URL.</p>
+<p><strong>Demo</strong>
+This is a Demo</p>
+<h4 id="default-policy-rule">Default Policy Rule</h4>
+<p><strong>主動掃描</strong>
+Admin Console - Detected
+Apache Struts - Remote Code Execution - CVE-2017-5638
+Backup and Old Files
+Blind SQL Injection
+Buffer Overflow
+CRLF Injection
+Client-side Cross-Domain Script Inclusion
+Client-side HTTP Parameter Pollution
+Clickjacking
+Content Security Policy Header Not Set
+Cookie No HttpOnly Flag
+Cookie Without Secure Flag
+CORS Misconfiguration
+Cross-Domain JavaScript Source File Inclusion
+Cross-Site Flashing
+Cross-Site Scripting (DOM based)
+Cross-Site Scripting (Reflected)
+Cross-Site Scripting (Stored)
+Database Disclosure
+Debug Errors
+Directory Browsing
+Email Addresses Disclosure
+External Redirect
+File Inclusion
+File Path Manipulation
+Forced Browsing
+HTTP Method Not Allowed
+HTTP Parameter Override
+HTTPoxy
+Improper Error Handling
+Improper Filesystem Permissions
+Improper Neutralization of CRLF Sequences
+Insecure Communications
+Insecure Cryptographic Storage
+Insecure HTTP Method
+Insecure Randomness
+Insecure Storage of Passwords
+Insufficient Anti-automation
+Insufficient Authorization
+Insufficient Session Expiration
+Insufficient Transport Layer Protection
+LDAP Injection
+Local File Inclusion
+Local Resource Inclusion
+MIME Type Mismatch
+OS Command Injection
+OWASP Top 10 2007
+OWASP Top 10 2010
+OWASP Top 10 2013
+OWASP Top 10 2017
+Path Traversal
+Password Autocomplete in Browser
+PHP Injection
+PHP Object Injection
+Plaintext Storage of a Password
+Private IP Disclosure
+Remote OS Command Injection
+Remote File Inclusion
+Server-side Code Injection
+Server-side Request Forgery
+Session Fixation
+SQL Injection
+Stack Trace Disclosure
+Struts-Shock
+Suggestive File Download
+Unvalidated Redirects and Forwards
+Unvalidated Web Forms
+Username Enumeration
+WebDAV Detection
+XPath Injection</p>
+<p><strong>被動掃描</strong>
+Cross-Domain Script Inclusion: 檢測網站是否存在可能允許來自不同來源的腳本在網頁中執行的漏洞。
+Cross-Domain Resource Policy: 檢測網站是否設置了跨域資源共享（CORS）策略來限制來自不同來源的資源的訪問權限。
+Cross-Origin Resource Sharing (CORS) Header Not Found: 檢測網站是否未設置CORS標頭，從而可能允許來自其他域的資源訪問網站資源。
+Directory Listing Enabled: 檢測網站是否啟用了目錄列舉功能，使攻擊者可以輕鬆地瀏覽網站上的文件和目錄。
+External JavaScript libraries loaded over HTTP: 檢測網站是否加載了未加密的JavaScript庫，可能存在安全漏洞。
+HTTP Header Injection Detected (HTTP Response Splitting): 檢測網站是否存在HTTP響應分裂漏洞，允許攻擊者注入惡意標頭到HTTP響應中，從而可能導致跨站腳本攻擊等安全問題。
+Incomplete or No Cache-control and Pragma HTTP Header Set: 檢測網站是否未完整設置HTTP標頭，可能導致瀏覽器快取不正常。
+Insecure Password Fields: 檢測網站是否在未加密的頁面上顯示了用戶名和密碼，可能被攻擊者竊取。
+Missing X-Content-Type-Options Header: 檢測網站是否未設置X-Content-Type-Options標頭，可能導致MIME型別混淆攻擊。
+Multiple Content-Type Headers: 檢測網站是否存在多個Content-Type標頭，可能導致MIME型別混淆攻擊。
+Multiple Content-Security-Policy Headers Found: 檢測網站是否存在多個Content-Security-Policy標頭，可能導致安全策略不正常。</p>
+<p>No Access-Control-Allow-Origin Header Found: 未發現 Access-Control-Allow-Origin 響應頭，可能導致跨站請求偽造攻擊（CSRF）等安全問題。
+No Content-Security-Policy Header Found: 未發現 Content-Security-Policy 響應頭，可能導致跨站腳本（XSS）攻擊等安全問題。
+No X-Content-Type-Options Header Found: 未發現 X-Content-Type-Options 響應頭，可能導致 MIME-sniffing 攻擊等安全問題。
+No X-Frame-Options Header Found: 未發現 X-Frame-Options 響應頭，可能導致點擊劫持攻擊等安全問題。
+No X-XSS-Protection Header Found: 未發現 X-XSS-Protection 響應頭，可能導致跨站腳本（XSS）攻擊等安全問題。
+Password Autocomplete Detected: 檢測到密碼自動填充，可能導致安全問題。
+Private IP Disclosure: 檢測到應用程式可能會洩漏內部網路 IP，可能導致攻擊者獲取內網機器的資訊。
+Referrer Leakage: 檢測到引用網址洩漏，可能導致敏感資訊外洩。
+Script Passive Scan Rule: 被動檢測 JavaScript 檔案中可能存在的安全漏洞。
+Session ID in URL Rewrite: 偵測到 URL 中包含 Session ID 且被重寫，可能導致會話劫持攻擊等安全問題。
+Session ID in URL Rewrite - Path Disclosure: 偵測到 URL 中包含 Session ID 且被重寫，可能導致資訊洩漏安全問題。
+Unencrypted Login Form: 檢測到登入表單使用未加密的傳輸協定，可能導致帳號密碼被攻擊者竊取。
+Unencrypted Login Form over SSL: 檢測到登入表單使用 SSL 加密但無法強制使用，可能導致安全問題。
+Weak Authentication Parameters: 檢測到弱的認證參數，可能導致身份驗證繞過等安全問題。
+Weak Password Policy: 檢測到弱的密碼策略，可能導致密碼被破解或其他安全問題。</p>
 
 
 
@@ -1108,10 +2128,10 @@
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
             <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
               <div class="md-ellipsis">
-                <span class="md-footer__direction">
-                  Previous
-                </span>
                 Tracing
               </div>
             </div>
@@ -1119,13 +2139,13 @@
         
         
           
-          <a href="../SAST/" class="md-footer__link md-footer__link--next" aria-label="Next: SAST" rel="next">
+          <a href="../DockerfileScan/" class="md-footer__link md-footer__link--next" aria-label="Next: Dockerfile Scan" rel="next">
             <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
               <div class="md-ellipsis">
-                <span class="md-footer__direction">
-                  Next
-                </span>
-                SAST
+                Dockerfile Scan
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1161,10 +2181,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "navigation.indexes", "navigation.footer"], "search": "../../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.tracking", "navigation.top", "navigation.indexes", "navigation.footer"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.efa0ade1.min.js"></script>
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
       
     
   </body>
