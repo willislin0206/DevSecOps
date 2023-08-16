@@ -41,11 +41,15 @@ Development &amp; Security &amp; Operations all in one
 ### Release - GitOps(ArgoCD)
 
 
+# auto build-up and  genertate static web data (html + css + javascript)
+docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
+
+# build up your website 
+docker run  -p 1988:80 -v ${PWD}/site:/usr/share/nginx/html:ro nginx:latest
+
 # how to auto deploy to github pages
 docker run --rm -it -v ~/.ssh:/root/.ssh -v ${PWD}:/docs squidfunk/mkdocs-material gh-deploy 
 
-# auto build-up and  genertate static web data (html + css + javascript)
-docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
 
 # mkdocs document
 https://www.mkdocs.org/user-guide/writing-your-docs/

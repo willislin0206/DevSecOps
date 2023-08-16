@@ -1,5 +1,5 @@
 ---
-title: "FrontEnd"
+title: "Angular with PrimeNG"
 
 ---
 
@@ -15,16 +15,6 @@ title: "FrontEnd"
 **生態系統和社區支持**：Angular 和 React 的生態系統都很豐富，擁有大量的支持和社區資源，Vue.js 的社區也越來越大，但尚不及 Angular 和 React。
 
 
-#### 前端主流UI庫
-**1. PrimeNG**：
-PrimeNG 是一款基于 Angular 的开源 UI 组件库，提供了许多 UI 组件，包括表格、表单、图表、日历、菜单等等。它提供了一系列的样式主题，也支持自定义主题。PrimeNG 与 Angular 无缝集成，可以使用 Angular CLI 快速创建项目，并且还提供了丰富的文档和示例，易于上手。
-
-**2. Angular Material**：
-Angular Material 是 Google 官方推出的一个基于 Angular 的 UI 组件库，它提供了许多常用的 UI 组件，如按钮、输入框、对话框等等。与 PrimeNG 不同的是，Angular Material 使用的是 Material Design 设计语言，所以风格上更加统一，支持响应式设计，并且还提供了强大的主题定制功能。
-
-**3. Ant Design**：
-Ant Design 是一个基于 React 的 UI 组件库，提供了许多常用的 UI 组件，如按钮、表单、表格、菜单等等。它的设计灵感来自于 Ant Design 设计语言，因此在风格上更加独特，同时也支持响应式设计和自定义主题。Ant Design 还提供了 Ant Design Pro，一个基于 Ant Design 的开箱即用的企业级后台前端/设计解决方案。
-
 
 #### Angular介紹
 Angular是一個基於TypeScript編寫的開源Web應用程式框架，由Google團隊開發和維護。它採用了一些現代Web開發的最佳實踐，例如組件化、模組化、依賴注入、模板化等，以提高開發效率和可維護性。
@@ -37,8 +27,8 @@ Angular是一個基於TypeScript編寫的開源Web應用程式框架，由Google
 
 總之來說，Angular提供了一個完整的、一致的開發體驗，以幫助開發者更加高效地構建現代Web應用程式。
 
-#### Angular with PrimeNG
 
+#### Angular with PrimeNG
 **Github Repo** : https://github.com/wei-hsin-story/ngcrud.git
 
 **入門指南**
