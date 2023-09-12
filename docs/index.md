@@ -1,15 +1,10 @@
 ---
-title: "Home"
-
+title: "Introduction"
 #hide: navigation
-
 comments: true
 ---
 
 
 
-
-# Introduction
-
-
+---
 

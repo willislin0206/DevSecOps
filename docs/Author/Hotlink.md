@@ -1,16 +1,16 @@
 ---
 title: "Hotlink"
+---
 
 ---
-# Hotlink
 
 ## AI
 
-1. [偉大的聊天機器人- ChatGPT](https://chat.openai.com/chat)
-2. [MS - BingChat](https://www.bing.com/)
-3. [Google - Bard]()
-4. [人聲與背景音樂分離](https://youtu.be/Y4L19X3W3f4)
-5. 畫圖機器人:
+* [偉大的聊天機器人- ChatGPT](https://chat.openai.com/chat)
+* [MS - BingChat](https://www.bing.com/)
+* [Google - Bard]()
+* [人聲與背景音樂分離](https://youtu.be/Y4L19X3W3f4)
+* 畫圖機器人:
    * [DALL·E 2](https://www.bnext.com.tw/article/73621/dall-e-0105)
    * [Midjourney](https://www.kocpc.com.tw/archives/453331) (已須付費)
 
