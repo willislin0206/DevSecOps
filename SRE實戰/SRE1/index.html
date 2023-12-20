@@ -2468,8 +2468,7 @@
   <h1>SRE 第一章: 不要讓你的選擇永遠只有一個</h1>
 
 <hr />
-<p>SRE實戰篇~~~~~~~</p>
-<p>故事是這樣的.....
+<p>故事是這樣的..... <br>
 小弟本身有養個小兔，寄託在別人家，別人的家被炸掉之後，我的小兔也會跟著死掉。</p>
 <p>伴隨失去吾愛的苦楚與哀傷之下，
 我進行了一些改造計畫的選擇！</p>
@@ -2479,6 +2478,7 @@
 <strong>(3) 把自己白兔敏捷點滿 躲過轟炸</strong><br/>
 <strong>(4) 大驚小怪 當下再生一個就好</strong><br/></p>
 <h2 id="_1">如果你是我，你要如何保護自己的小白兔呢？</h2>
+<p><img src="../../assets/images/SRE/brainstorm.jpg" alt="image" margin="auto"  height="auto"></p>
 <hr />
 <p>今天就來聊一下，
 如何不要讓你的選擇永遠只有一個！！</p>
@@ -2486,8 +2486,9 @@
 ，但即使防禦值很高，終究百密一疏啊。</p>
 <p>記取了歷史與教訓之後，
 我果定了一件事情，就是在轟炸來之前，快速遷移到下一個早已佈置好的地方！</p>
-<p>常言道狡兔須有三窟，我們需要有另闢藏身之處的想法，於是我費盡心思，在小小的花園裡挖呀挖呀挖，最後挖到了四個好地方。
-這樣一波操作下來，包準你高枕無憂！</p>
+<p>常言道狡兔須有三窟，我們需要有另闢藏身之處的想法，於是我費盡心思，在小小的花園裡挖呀挖呀挖，最後挖到了四個好地方。</p>
+<p><img src="../../assets/images/SRE/rabbit.jpg" alt="image" margin="auto"  height="auto"></p>
+<p>這樣一波操作下來，包準你高枕無憂！</p>
 <p>舉個例子，
 我會安插很多個agent/collector,
 像是在我房子周圍當成感測器，計算濕度/溫度/風/空品/仇恨 等數值，一有震盪就會進入下一道防禦機制，一旦自我防禦無法啟用或解決威脅，就會打開密道，緊急撤離到下一個事先準備好的地方。</p>
@@ -2505,25 +2506,35 @@
 <li>可觀測性
 看得到自己的瓶頸在哪。（這隻兔子戰鬥指數至少1萬！）</li>
 </ol>
-<p>以上淺見，如果小兔比喻太深奧，最後Demo奉上。
-大家如果很有金，也煩donate給我，繼續幫別人點防禦 XD
-不過，現在..我真的已經力不從心。 
+<p><br/>
+以上淺見，如果小兔比喻太深奧，最後Demo奉上。
+<br/> <br/>
+大家如果很有金，也煩donate給我，繼續幫別人點防禦 XD  <br></p>
+<p><img src="../../assets/images/SRE/base.jpg" alt="image" margin="auto"  height="auto">
+不過，現在..我真的已經力不從心。 <br/>
 Orz , 以上。</p>
-<p>有了這樣的認知後，
+<p><br/>
+有了這樣的認知後，
 就可以進入到....</p>
 <ul>
 <li>SRE 重點精神之二 :  把握分秒，快速反應</li>
 <li>SRE 重點精神之三 :  化繁為簡，異中求同</li>
 <li>SRE 重點精神之四.....</li>
 </ul>
-<p>我也不知道有幾集，想到再寫囉
+<p>我也不知道有幾集，想到再寫囉。
 TBC~~~</p>
+<hr />
 <p><strong>最後也要強調，</strong> </br>
 <strong>這並非完全適用在每一種服務，</strong> </br>
-<strong>要先了解服務特性才能再做調整，</strong> </br>
-<strong>沒辦法做HA的服務要另外處理，</strong> </br>
-<strong>工具上的Orchestration沒辦法做到，</strong> </br>
-<strong>就寫Code去完成!</strong> </br></p>
+<strong>要先了解服務特性才能再做調整。</strong> </br>
+</br></p>
+<p><strong>以Server角度:</strong><br>
+<strong>能做HA的服務就要建置，</strong> </br>
+<strong>沒有的話要另外想辦法(重要資料備援,DB Replica/HA)。</strong>
+</br></p>
+<p><strong>以AP角度:</strong><br>
+<strong>透過工具上的Orchestration達成(K8S,HAProxy...)，</strong> </br>
+<strong>沒辦法做到的，就寫Code去完成!</strong> </br></p>
 
 
 
